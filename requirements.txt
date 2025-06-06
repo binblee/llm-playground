@@ -1,0 +1,7 @@
+python-dotenv
+openai
+ipykernel
+langchain_openai
+langchain
+langchain-google-genai
+Pillow
