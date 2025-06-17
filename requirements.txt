@@ -5,3 +5,6 @@ langchain_openai
 langchain
 langchain-google-genai
 Pillow
+langgraph
+pypdf
+langchain_community
