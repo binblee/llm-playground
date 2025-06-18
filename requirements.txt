@@ -8,3 +8,8 @@ Pillow
 langgraph
 pypdf
 langchain_community
+langgraph-cli[inmem]
+langchain-tavily
+certifi
+requests
+urllib3
