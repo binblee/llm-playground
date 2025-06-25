@@ -175,3 +175,5 @@ cython_debug/
 
 # misc
 .DS_Store
+
+.gradio
