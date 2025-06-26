@@ -19,6 +19,7 @@ dependencies = [
     "langgraph>=0.4.10",
     "langgraph-api>=0.2.66",
     "langgraph-cli[inmem]>=0.3.3",
+    "llama-index>=0.12.43",
     "openai>=1.91.0",
     "pillow>=11.2.1",
     "plotly>=6.1.2",
