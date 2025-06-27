@@ -16,7 +16,7 @@ try:
         api_base="https://generativelanguage.googleapis.com/v1beta/openai/",
         api_key=os.getenv('GOOGLE_API_KEY')
     )
-    agent = CodeAgent(tools=[*tools], model=model_qwen, additional_authorized_imports=["json", "ast", "urllib", "base64"])
+    agent = CodeAgent(tools=[*tools], model=model_gemini, additional_authorized_imports=["json", "ast", "urllib", "base64"])
 
     demo = gr.ChatInterface(
         fn=lambda message, history: str(agent.run(message)),
