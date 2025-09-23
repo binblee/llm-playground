@@ -23,6 +23,7 @@ dependencies = [
     "langgraph>=0.4.10",
     "langgraph-api>=0.2.66",
     "langgraph-cli[inmem]>=0.3.3",
+    "litellm>=1.77.3",
     "llama-index>=0.12.43",
     "mcp[cli]>=1.9.4",
     "openai>=1.91.0",
