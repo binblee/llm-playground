@@ -18,6 +18,7 @@ dependencies = [
     "langchain-community>=0.3.26",
     "langchain-core>=0.3.66",
     "langchain-google-genai>=2.1.5",
+    "langchain-litellm>=0.3.0",
     "langchain-openai>=0.3.25",
     "langchain-tavily>=0.2.4",
     "langgraph>=0.4.10",

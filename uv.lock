@@ -1300,6 +1300,19 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-litellm"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "litellm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f9/0e/f5583b4b63da7ecd1c3b45bd9c9f97b727761e492a0c07869a8779ea28dd/langchain_litellm-0.3.0.tar.gz", hash = "sha256:94d7c106c5c9c81eba0e54ce9a4f720c61461d2f5592ad612e974f096866b351", size = 11184, upload-time = "2025-10-20T11:55:27.014Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b7/14/3409f8cbb9e05019b6aa4f951ea937f933029552cfb59b8d10bbe84e5386/langchain_litellm-0.3.0-py3-none-any.whl", hash = "sha256:029afdce461fc51ff45fd06e0c2467b79304e5cc127e3596e208182ce0f637ba", size = 11861, upload-time = "2025-10-20T11:55:25.961Z" },
+]
+
+[[package]]
 name = "langchain-openai"
 version = "0.3.25"
 source = { registry = "https://pypi.org/simple" }
@@ -1790,6 +1803,7 @@ dependencies = [
     { name = "langchain-community" },
     { name = "langchain-core" },
     { name = "langchain-google-genai" },
+    { name = "langchain-litellm" },
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
     { name = "langgraph" },
@@ -1827,6 +1841,7 @@ requires-dist = [
     { name = "langchain-community", specifier = ">=0.3.26" },
     { name = "langchain-core", specifier = ">=0.3.66" },
     { name = "langchain-google-genai", specifier = ">=2.1.5" },
+    { name = "langchain-litellm", specifier = ">=0.3.0" },
     { name = "langchain-openai", specifier = ">=0.3.25" },
     { name = "langchain-tavily", specifier = ">=0.2.4" },
     { name = "langgraph", specifier = ">=0.4.10" },
